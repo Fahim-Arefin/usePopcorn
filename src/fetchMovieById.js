@@ -10,7 +10,7 @@ const fetchMovieById = async (
     setIsLoading(true);
     setError(false);
     const res = await fetch(
-      `http://www.omdbapi.com/?apikey=${key}&i=${selectedId}`
+      `https://www.omdbapi.com/?apikey=${key}&i=${selectedId}`
     );
 
     if (!res.ok) {

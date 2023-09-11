@@ -11,7 +11,7 @@ const fetchData = async (
     setIsLoading(true);
     setError(false);
     const res = await fetch(
-      `http://www.omdbapi.com/?apikey=${key}&s=${query}`,
+      `https://www.omdbapi.com/?apikey=${key}&s=${query}`,
       {
         signal: controller.signal,
       }
@@ -27,11 +27,11 @@ const fetchData = async (
     // console.log(data.Search);
     // return data.Search;
   } catch (e) {
-    console.log(e.message)
+    console.log(e.message);
     if (e.name !== "AbortError") {
       setError(e.message);
     }
-    setError(false)
+    setError(false);
   } finally {
     setIsLoading(false);
   }
