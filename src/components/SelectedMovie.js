@@ -46,7 +46,7 @@ function SelectedMovie({
       return;
     }
     document.title = `Movie | ${selectedMovie.Title}`;
-    //executes after unmount or re-render component and also before 2nd time is called
+    //executes after unmount or before 2nd time is called
     return () => {
       document.title = "usePopcorn";
       console.log(`after unmount executes - ${selectedMovie.Title}`);
