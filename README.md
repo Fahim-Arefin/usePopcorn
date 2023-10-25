@@ -2,9 +2,7 @@
 
 Welcome to UsePopcorn, a movie-related web application where you can search for movies, view movie details, rate movies, and manage your watchlist. With local storage integration and a responsive design, UsePopcorn makes it easy to explore and keep track of your favorite films.
 
-## Site Link
-
-You can access the live site at the following link: [UsePopcorn Web App](https://magnificent-speculoos-65fc3a.netlify.app/).
+## 🌐 [Live Site](https://magnificent-speculoos-65fc3a.netlify.app/)
 
 ## 🚀 Project Features
 
@@ -44,9 +42,3 @@ Some of its standout features include:
 
 7. **Responsiveness**
    - UsePopcorn is designed to work seamlessly on all devices.
-
-## Getting Started
-
-To get started with UsePopcorn, follow these steps:
-
-1. Clone the repository:
